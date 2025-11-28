@@ -1,8 +1,13 @@
 <Solution>
+  <Folder Name="/dll/" />
   <Folder Name="/Task 0/">
     <Project Path="Tyuiu.AnisimovNV.Sprint2.Task0.V12.Lib/Tyuiu.AnisimovNV.Sprint2.Task0.V12.Lib.csproj" />
     <Project Path="Tyuiu.AnisimovNV.Sprint2.Task0.V12.Test/Tyuiu.AnisimovNV.Sprint2.Task0.V12.Test.csproj" />
     <Project Path="Tyuiu.AnisimovNV.Sprint2.Task0.V12/Tyuiu.AnisimovNV.Sprint2.Task0.V12.csproj" />
   </Folder>
-  <Folder Name="/Task 1/" />
+  <Folder Name="/Task 1/">
+    <Project Path="Tyuiu.AnisimovNV.Sprint2.Task1.V10.Lib/Tyuiu.AnisimovNV.Sprint2.Task1.V10.Lib.csproj" />
+    <Project Path="Tyuiu.AnisimovNV.Sprint2.Task1.V10.Test/Tyuiu.AnisimovNV.Sprint2.Task1.V10.Test.csproj" />
+    <Project Path="Tyuiu.AnisimovNV.Sprint2.Task1.V10/Tyuiu.AnisimovNV.Sprint2.Task1.V10.csproj" />
+  </Folder>
 </Solution>
