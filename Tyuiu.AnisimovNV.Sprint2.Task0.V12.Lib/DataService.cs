@@ -10,12 +10,15 @@ namespace Tyuiu.AnisimovNV.Sprint2.Task0.V12.Lib
             bool[] results = new bool[6];
 
             // Последовательность операций сравнения
-            results[0] = x == y + 620;        // True: 1095 == 475 + 620
-            results[1] = x != y * 2 + 145;    // False: 1095 != 475*2 + 145
-            results[2] = x > y * 2 + 100;     // True: 1095 > 475*2 + 100
-            results[3] = x < y * 3 - 300;     // False: 1095 < 475*3 - 300
-            results[4] = x >= y * 2 + 145;    // True: 1095 >= 475*2 + 145
-            results[5] = x <= y + 620;        // False: 1095 <= 475 + 620
+            // x = 1095, y = 475
+            // Нужно: (True, False, True, False, True, False)
+
+            results[0] = x == y + 620;        // True: 1095 == 475 + 620 = 1095
+            results[1] = x != y + 620;        // False: 1095 != 1095
+            results[2] = x > y + 500;         // True: 1095 > 975
+            results[3] = x < y + 700;         // False: 1095 < 117 5
+            results[4] = x >= y + 620;        // True: 1095 >= 1095
+            results[5] = x <= y + 600;        // False: 1095 <= 1075
 
             return results;
         }
