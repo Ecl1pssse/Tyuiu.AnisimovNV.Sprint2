@@ -1,9 +1,9 @@
 ﻿using System;
 using tyuiu.cources.programming.interfaces.Sprint2;
 
-namespace Tyuiu.AnisimovNV.Sprint2.Task0.V12.Lib
+namespace Tyuiu.AnisimovNV.Sprint2.Task2.V12.Lib
 {
-    public class DataService : ISprint2Task0V12
+    public class DataService : ISprint2Task2V12
     {
         public bool[] GetCompareOperations(int x, int y)
         {
