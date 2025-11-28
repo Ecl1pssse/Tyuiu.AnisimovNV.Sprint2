@@ -14,7 +14,7 @@ namespace Tyuiu.AnisimovNV.Sprint2.Task1.V10.Lib
 
             results[0] = (a > b) | (c < d);                    // True | True = True
             results[1] = (a == b) & (c > d);                   // False & False = False
-            results[2] = (a == b) || (c == d);                 // False || False = False (ИСПРАВЛЕНО)
+            results[2] = (a == b) || (c == d);                 // False || False = False
             results[3] = (a <= b) && (c >= d);                 // False && False = False
             results[4] = !(a < b) ^ (c == d);                  // true ^ false = True
             results[5] = (a < b) | (c > d) & (a == c);         // false | false & false = false
@@ -22,3 +22,4 @@ namespace Tyuiu.AnisimovNV.Sprint2.Task1.V10.Lib
             return results;
         }
     }
+}
